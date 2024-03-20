@@ -127,5 +127,8 @@ border-radius: 30px;
     background-color: aliceblue;
     width: 500px;
     margin: auto;
-
+    border: 3px solid;
+    border-radius: 13px;
+    height: 376px;
+    width: 368px;
 }
