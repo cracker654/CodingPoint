@@ -107,10 +107,11 @@ border-radius: 30px;
 }
 .webtut{
     text-align: center;
-    justify-content: center;
-    margin: auto; 
+    margin: 20px; 
     background: none;
+    padding: 30px;
 }
+
 .webtut a input{
  font-size: 30px;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -119,16 +120,44 @@ border-radius: 30px;
  padding: 10px 30px;
  border-radius: 50px;
 }
-.webdev{
-    background: rgb(151, 238, 250);
-    height: 50vh;
+#courses{
+    text-align: center;
+    color: red;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-content: center;
+    font-size: 40px;
 }
-#secweb{
-    background-color: aliceblue;
+.courses,.courses2{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+   
+
+}
+.vs{
+    display: flex;
+    flex-direction: column;
+}
+.vp{
+    height: 300px;
     width: 500px;
-    margin: auto;
-    border: 3px solid;
-    border-radius: 13px;
-    height: 376px;
-    width: 368px;
+    border: 6px solid green;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 42px;
+    background: rgba(0,0, 0, 0.7 )url(../Images/Untitled.png);
+    background-size: cover;
+} 
+.tuth{
+    color: white;
+    text-align: center;
+    padding: 13px;
+    font-size: 40px;
 }
+.tutp,.vp ul li{
+ color: white;
+ font-size: 18px;
+ font-family: bold;
+}
+
